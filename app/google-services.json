@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "576447615455",
+    "firebase_url": "https://eldroid---final-project-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "eldroid---final-project",
+    "storage_bucket": "eldroid---final-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576447615455:android:cf878169fbbf796b3b346a",
+        "android_client_info": {
+          "package_name": "com.espanol.habitualnotetaker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClDc2-I1ecz_h39-tmP5xFrX-201MkZuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

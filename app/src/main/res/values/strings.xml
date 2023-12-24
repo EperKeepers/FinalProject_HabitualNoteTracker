@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Habitual Note Taker</string>
+    <string name="elevate_your_daily_routine_one_note_at_a_time">Elevate Your Daily Routine, One Note at a Time</string>
+    <string name="landing_page_content_details">Do you ever find yourself struggling to remember the details of your daily habits and activities? Imagine a personal assistant for your lifestyle - introducing Habitual Note Taker, the app that transforms the way you capture, reflect, and improve upon your daily goals.</string>
+    <string name="landing_button_get_started">Get Started</string>
+    <string name="login_sub_heading_text">Log in to continue tracking your daily habits and activities</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="email">Email</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_your_account">Register your Account</string>
+    <string name="start_tracking_your_habits_and_activities_by_creating_your_account">Start tracking your habits and activities by creating your account</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_btn">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_text">Login</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="jennifer">Jennifer</string>
+    <string name="hello">Hello,</string>
+    <string name="category">Category</string>
+    <string name="list_notes">List Notes</string>
+    <string name="sample_text_header">Your Path to a Healthier You 🏋️‍♂️📝</string>
+    <string name="image_upload">Image Upload</string>
+    <string name="sample_text_sub">Start with a dynamic warm-up to get those muscles firing.</string>
+    <string name="_2024_08_20">2024-08-20</string>
+    <string name="_10_53am">10:53AM</string>
+    <string name="fitness">Fitness</string>
+    <string name="veggie_powered_journey_to_a_healthier">Veggie-Powered Journey to a Healthier</string>
+    <string name="hydrate_hydrate_hydrate_water_is_your_workout_bff">Hydrate, hydrate, hydrate! Water is your workout BFF.</string>
+    <string name="wellness">Wellness</string>
+    <string name="work">Work</string>
+    <string name="_2024_05_21">2024-05-21</string>
+    <string name="_05_21_2024">05-21-2024</string>
+    <string name="client_presentation">Client Presentation</string>
+    <string name="prepared_slides_for_the_client_presentation">Prepared slides for the client presentation</string>
+    <string name="save">Save</string>
+    <string name="categories">Category:</string>
+    <string name="title">Title</string>
+    <string name="start_your_note">Start your note...</string>
+    <string name="add_photo">add photo</string>
+    <string name="theme">theme</string>
+    <string name="calendar">calendar</string>
+    <string name="time">time</string>
+    <string name="delete">delete</string>
+    <string name="account_profile">Account Profile</string>
+    <string name="history">History</string>
+    <string name="search_note">Search note</string>
+    <string name="filter">Filter</string>
+    <string name="history_text">History</string>
+    <string name="loading">loading...</string>
+
+    <string-array name="categories_array">
+        <item>Fitness</item>
+        <item>Work</item>
+        <item>Wellness</item>
+        <item>Study</item>
+        <item>Hobbies</item>
+        <item>Social</item>
+    </string-array>
+
+</resources>

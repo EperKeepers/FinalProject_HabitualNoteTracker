@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login_register"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/register_header_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/login_to_your_account"
+        android:textColor="@color/dark_green"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_sub_header_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_header_title_text_view"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/login_sub_heading_text"
+        android:textColor="@color/dark_green"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/login_email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/login_sub_header_text_view"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/layout_edit_text_modify"
+        android:drawableStart="@drawable/outline_mail_24"
+        android:drawablePadding="8dp"
+        android:hint="@string/email"
+        android:paddingStart="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="Autofill,LabelFor,RtlSymmetry,TextContrastCheck,TextFields,VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/login_password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/login_email_edit_text"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/layout_edit_text_modify"
+        android:drawableStart="@drawable/outline_password_24"
+        android:drawablePadding="8dp"
+        android:hint="@string/password"
+        android:paddingStart="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="Autofill,LabelFor,RtlSymmetry,TextContrastCheck,TextFields,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/layout_button_background"
+        android:layout_below="@id/login_password_edit_text"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        tools:ignore="VisualLintButtonSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_an_account"
+            android:textColor="@color/dark_green"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/login_register_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:clickable="true"
+            android:text="@string/register"
+            android:textColor="@color/dark_green"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="KeyboardInaccessibleWidget,TouchTargetSizeCheck" />
+    </LinearLayout>
+</RelativeLayout>
